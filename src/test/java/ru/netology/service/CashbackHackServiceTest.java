@@ -34,7 +34,7 @@ public class CashbackHackServiceTest {
         int boundary = 1000;
 
         int actual = service.remain(boundary);
-        int exected = 1000;
+        int exected = 0;
         assertEquals(actual, exected);
 
     }
